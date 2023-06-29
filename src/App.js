@@ -1,20 +1,17 @@
-import background from "./images/background.jpg";
+import Background from "./background";
+
 import "./App.css";
 
 function App() {
-	let imageStyle = {
-		backgroundImage: `url(${background})`,
-		backgroundRepeat: "no-repeat",
-		backgroundSize: "cover",
-	};
 	return (
 		<div className="App">
 			<body>
-				<div className="image" style={imageStyle}>
-					<header className="App-header">Dictionary App</header>
-				</div>
+				<header className="App-header">Dictionary App</header>
 			</body>
 		</div>
+    <div className="background">
+        <Background />
+    </div>
 	);
 }
 
