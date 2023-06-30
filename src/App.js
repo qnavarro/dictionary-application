@@ -6,12 +6,13 @@ function App() {
 	return (
 		<div className="App">
 			<body>
-				<header className="App-header">Dictionary App</header>
+				<div className="overlay"></div>
+				<div className="content">
+					<h1>Dictionary App</h1>
+				</div>
+				<Background />
 			</body>
 		</div>
-    <div className="background">
-        <Background />
-    </div>
 	);
 }
 

@@ -7,9 +7,8 @@ export default function Background() {
 			style={{
 				backgroundImage: `url('${background}')`,
 				backgroundSize: "cover",
+				minHeight: "100vh",
 			}}
-		>
-			Dictionary App{" "}
-		</div>
+		></div>
 	);
 }
