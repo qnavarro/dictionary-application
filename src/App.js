@@ -10,6 +10,8 @@ function App() {
 			<div className="content">
 				<h1>Dictionary App</h1>
 				<Dictionary />
+				<br />
+				<p>coded by Queenie Navarro</p>
 			</div>
 			<Background />
 		</div>
