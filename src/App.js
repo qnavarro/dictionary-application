@@ -9,6 +9,7 @@ function App() {
 			<div className="overlay"></div>
 			<div className="content">
 				<h1>Dictionary App</h1>
+				<br />
 				<Dictionary />
 				<br />
 				<p>coded by Queenie Navarro</p>
