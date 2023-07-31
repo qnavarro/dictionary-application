@@ -8,6 +8,9 @@
 	justify-content: center;
 	align-items: center;
 	color: white;
+	margin-top: 200px;
+	display: flex;
+	flex: 1;
 }
 
 .overlay {

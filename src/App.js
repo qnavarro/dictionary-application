@@ -7,10 +7,10 @@ function App() {
 	return (
 		<div className="App">
 			<div className="overlay"></div>
-			<div className="content">
+			<div className="content d-flex">
 				<h1> d i c t i o n a r y </h1>
 				<br />
-				<Dictionary defaultKeyword="hello" />
+				<Dictionary defaultKeyword="glimmer" />
 				<br />
 				<p>coded by Queenie Navarro</p>
 			</div>
