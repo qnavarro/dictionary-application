@@ -22,3 +22,7 @@
 small {
 	color: white;
 }
+
+.App h1 {
+	font-weight: bold;
+}
