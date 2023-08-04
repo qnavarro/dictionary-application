@@ -1,20 +1,21 @@
-import Background from "./background";
 import Dictionary from "./Dictionary";
+import background from "./images/background.jpg";
 
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			<div className="overlay"></div>
-			<div className="content d-flex">
+			<div
+				className="content"
+				style={{ backgroundImage: `url("${background}")` }}
+			>
 				<h1> d i c t i o n a r y </h1>
 				<br />
 				<Dictionary defaultKeyword="glimmer" />
 				<br />
 				<p>coded by Queenie Navarro</p>
 			</div>
-			<Background />
 		</div>
 	);
 }
