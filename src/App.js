@@ -14,7 +14,16 @@ function App() {
 				<br />
 				<Dictionary defaultKeyword="glimmer" />
 				<br />
-				<p>coded by Queenie Navarro</p>
+				<p>
+					coded by{" "}
+					<a
+						href="https://github.com/qnavarro/dictionary-application.git"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Queenie Navarro
+					</a>
+				</p>
 			</div>
 		</div>
 	);

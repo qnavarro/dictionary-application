@@ -20,3 +20,19 @@ small {
 .App h1 {
 	font-weight: bold;
 }
+
+.App p {
+	font-size: 30px;
+}
+
+.App a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.App a:hover {
+	color: gold;
+	font-size: 35px;
+	transition-duration: 0.3s;
+}
